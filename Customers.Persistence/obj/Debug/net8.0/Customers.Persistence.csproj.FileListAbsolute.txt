@@ -1,0 +1,17 @@
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\bin\Debug\net8.0\Customers.Persistence.deps.json
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\bin\Debug\net8.0\Customers.Persistence.dll
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\bin\Debug\net8.0\Customers.Persistence.pdb
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\bin\Debug\net8.0\Customers.Application.dll
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\bin\Debug\net8.0\Customers.Domain.dll
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\bin\Debug\net8.0\Customers.Application.pdb
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\bin\Debug\net8.0\Customers.Domain.pdb
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.csproj.AssemblyReference.cache
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.AssemblyInfoInputs.cache
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.AssemblyInfo.cs
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.csproj.CoreCompileInputs.cache
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.csproj.CopyComplete
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.dll
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\refint\Customers.Persistence.dll
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.pdb
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\ref\Customers.Persistence.dll

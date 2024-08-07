@@ -1,0 +1,39 @@
+﻿@page
+@model Customers.Web.Pages.Customer.DeleteModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>@ViewData["Title"]</h3>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <input type="hidden" asp-for="customerDetails.Id" />
+            <div class="form-group">
+                <label asp-for="customerDetails.FirstName" class="control-label"></label>
+                <input asp-for="customerDetails.FirstName" class="form-control" readonly />
+
+            </div>
+            <div class="form-group">
+                <label asp-for="customerDetails.LastName" class="control-label"></label>
+                <input asp-for="customerDetails.LastName" class="form-control" readonly />
+
+            </div>
+            <div class="form-group">
+                <label asp-for="customerDetails.City" class="control-label"></label>
+                <input asp-for="customerDetails.City" class="form-control" readonly />
+
+            </div>
+            <div class="form-group">
+                <label asp-for="customerDetails.EmailId" class="control-label"></label>
+                <input asp-for="customerDetails.EmailId" class="form-control" readonly />
+
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Delete" class="btn btn-primary" />
+                <a class="btn btn-success" asp-page="Index">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+E:\R&D\.Net\Customers\Customers\Customers.Domain\bin\Debug\net8.0\Customers.Domain.deps.json
+E:\R&D\.Net\Customers\Customers\Customers.Domain\bin\Debug\net8.0\Customers.Domain.dll
+E:\R&D\.Net\Customers\Customers\Customers.Domain\bin\Debug\net8.0\Customers.Domain.pdb
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.csproj.AssemblyReference.cache
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.AssemblyInfoInputs.cache
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.AssemblyInfo.cs
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.csproj.CoreCompileInputs.cache
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.dll
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\refint\Customers.Domain.dll
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.pdb
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\ref\Customers.Domain.dll

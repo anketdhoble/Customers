@@ -1,0 +1,45 @@
+﻿@page
+@model Customers.Web.Pages.Customer.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h3>@ViewData["Title"]</h3>
+<hr />
+<div class="row">
+<div class="col-md-4">
+    <form method="post">
+        <input type="hidden" asp-for="editCustomer.Id" />
+        <div class="form-group">
+            <label asp-for="editCustomer.FirstName" class="control-label"></label>
+            <input asp-for="editCustomer.FirstName" class="form-control" />
+            <span asp-validation-for="editCustomer.FirstName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="editCustomer.LastName" class="control-label"></label>
+            <input asp-for="editCustomer.LastName" class="form-control" />
+            <span asp-validation-for="editCustomer.LastName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="editCustomer.City" class="control-label"></label>
+            <input asp-for="editCustomer.City" class="form-control" />
+            <span asp-validation-for="editCustomer.City" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="editCustomer.EmailId" class="control-label"></label>
+            <input asp-for="editCustomer.EmailId" type="email" class="form-control" />
+            <span asp-validation-for="editCustomer.EmailId" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-2">
+            <input type="submit" value="Update" class="btn btn-success" />
+            <a class="btn btn-primary" asp-page="Index">Customer List</a>
+        </div>
+    </form>
+</div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

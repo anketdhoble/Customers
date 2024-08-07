@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C+37xqM04sGUwOvPAZqHL8OHz4YsSGfozMI5kyq7hCz6YspLurfhGCMT1WT9gCHnDEPCq1qKT8JlFxZ0vb1OVA==",
+  "success": true,
+  "projectFilePath": "E:\\R&D\\.Net\\Customers\\Customers\\Customers.Domain\\Customers.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AnketDhoble\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
