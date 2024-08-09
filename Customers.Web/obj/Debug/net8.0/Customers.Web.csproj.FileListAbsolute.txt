@@ -15,6 +15,7 @@ E:\R&D\.Net\Customers\Customers\Customers.Web\obj\Debug\net8.0\Customers.Web.csp
 E:\R&D\.Net\Customers\Customers\Customers.Web\obj\Debug\net8.0\Customers.Web.MvcApplicationPartsAssemblyInfo.cache
 E:\R&D\.Net\Customers\Customers\Customers.Web\obj\Debug\net8.0\Customers.Web.RazorAssemblyInfo.cache
 E:\R&D\.Net\Customers\Customers\Customers.Web\obj\Debug\net8.0\Customers.Web.RazorAssemblyInfo.cs
+E:\R&D\.Net\Customers\Customers\Customers.Web\obj\Debug\net8.0\Customers.Web.sourcelink.json
 E:\R&D\.Net\Customers\Customers\Customers.Web\obj\Debug\net8.0\staticwebassets.build.json
 E:\R&D\.Net\Customers\Customers\Customers.Web\obj\Debug\net8.0\staticwebassets.development.json
 E:\R&D\.Net\Customers\Customers\Customers.Web\obj\Debug\net8.0\staticwebassets\msbuild.Customers.Web.Microsoft.AspNetCore.StaticWebAssets.props

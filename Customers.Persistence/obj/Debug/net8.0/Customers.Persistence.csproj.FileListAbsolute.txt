@@ -10,6 +10,7 @@ E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers
 E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.AssemblyInfoInputs.cache
 E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.AssemblyInfo.cs
 E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.csproj.CoreCompileInputs.cache
+E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.sourcelink.json
 E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.csproj.CopyComplete
 E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\Customers.Persistence.dll
 E:\R&D\.Net\Customers\Customers\Customers.Persistence\obj\Debug\net8.0\refint\Customers.Persistence.dll

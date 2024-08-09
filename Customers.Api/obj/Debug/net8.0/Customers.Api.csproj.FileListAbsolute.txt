@@ -127,6 +127,7 @@ E:\R&D\.Net\Customers\Customers\Customers.Api\obj\Debug\net8.0\Customers.Api.Ass
 E:\R&D\.Net\Customers\Customers\Customers.Api\obj\Debug\net8.0\Customers.Api.csproj.CoreCompileInputs.cache
 E:\R&D\.Net\Customers\Customers\Customers.Api\obj\Debug\net8.0\Customers.Api.MvcApplicationPartsAssemblyInfo.cs
 E:\R&D\.Net\Customers\Customers\Customers.Api\obj\Debug\net8.0\Customers.Api.MvcApplicationPartsAssemblyInfo.cache
+E:\R&D\.Net\Customers\Customers\Customers.Api\obj\Debug\net8.0\Customers.Api.sourcelink.json
 E:\R&D\.Net\Customers\Customers\Customers.Api\obj\Debug\net8.0\staticwebassets.build.json
 E:\R&D\.Net\Customers\Customers\Customers.Api\obj\Debug\net8.0\staticwebassets.development.json
 E:\R&D\.Net\Customers\Customers\Customers.Api\obj\Debug\net8.0\staticwebassets\msbuild.Customers.Api.Microsoft.AspNetCore.StaticWebAssets.props

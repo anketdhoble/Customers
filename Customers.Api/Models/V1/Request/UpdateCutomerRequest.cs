@@ -6,7 +6,7 @@ namespace Customers.Api.Models.V1.Request
     public class UpdateCutomerRequest
     {
         [Required, JsonPropertyName("id")]
-        public required string Id { get; set; }
+        public required Guid Id { get; set; }
         [Required, JsonPropertyName("firstName")]
         public required string FirstName { get; set; }
         [Required, JsonPropertyName("lastName")]

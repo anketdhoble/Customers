@@ -6,6 +6,7 @@ E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Doma
 E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.AssemblyInfoInputs.cache
 E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.AssemblyInfo.cs
 E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.csproj.CoreCompileInputs.cache
+E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.sourcelink.json
 E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.dll
 E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\refint\Customers.Domain.dll
 E:\R&D\.Net\Customers\Customers\Customers.Domain\obj\Debug\net8.0\Customers.Domain.pdb

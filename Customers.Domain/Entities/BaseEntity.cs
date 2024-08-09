@@ -11,8 +11,7 @@ namespace Customers.Domain.Entities
     public abstract class BaseEntity
     {
         [Column("id")]
-        public Guid Id { get; set; } = new Guid();
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
+        public Guid Id { get; set; } = Guid.NewGuid();
         [Required]
         [Column("created_datetime")]
         public DateTime CreatedDateTime { get; set; } = DateTime.Now;

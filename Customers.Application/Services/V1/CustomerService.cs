@@ -13,14 +13,14 @@ namespace Customers.Application.Services.V1
             _customerRepository = customerRepository;
         }
 
-        public async Task AddAsync(AddCustomerDataModel customer, CancellationToken cancellationToken)
+        public async Task<CustomerDataModel> AddAsync(AddCustomerDataModel customer, CancellationToken cancellationToken)
         {
-            await _customerRepository.AddAsync(customer, cancellationToken);
+           return await _customerRepository.AddAsync(customer, cancellationToken);
         }
 
-        public async Task DeleteAsync(Guid id, CancellationToken cancellationToken)
+        public async Task<bool> DeleteAsync(Guid id, CancellationToken cancellationToken)
         {
-            await _customerRepository.DeleteAsync(id, cancellationToken);
+            return await _customerRepository.DeleteAsync(id, cancellationToken);
         }
 
         public async Task<IEnumerable<CustomerDataModel>> GetAllAsync(CancellationToken cancellationToken)
@@ -33,9 +33,9 @@ namespace Customers.Application.Services.V1
             return await _customerRepository.GetByIdAsync(id, cancellationToken);
         }
 
-        public async Task UpdateAsync(UpdateCustomerDataModel customer, CancellationToken cancellationToken)
+        public async Task<bool> UpdateAsync(UpdateCustomerDataModel customer, CancellationToken cancellationToken)
         {
-            await _customerRepository.UpdateAsync(customer, cancellationToken);
+            return await _customerRepository.UpdateAsync(customer, cancellationToken);
         }
     }
 }

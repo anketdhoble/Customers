@@ -4,7 +4,6 @@ using Customers.Api.Models.V1.Response;
 using Customers.Application.Interfaces.V1.Services;
 using Customers.Application.Models.V1;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -29,7 +28,7 @@ namespace Customers.Api.Controllers.V1
         public async Task<ActionResult<IEnumerable<CustomerResponse>>> Get(CancellationToken cancellationToken)
         {
             var customerData = await _customerService.GetAllAsync(cancellationToken);
-            if(customerData == null)
+            if (customerData == null)
             {
                 return NoContent();
             }
@@ -37,12 +36,16 @@ namespace Customers.Api.Controllers.V1
         }
 
         // GET api/<CustomerController>/5
-        [HttpGet("{id}")]
+        [HttpGet("{id}",Name = "GetById")]
         [ProducesResponseType(typeof(CustomerResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<CustomerResponse>> Get(Guid id, CancellationToken cancellationToken)
+        public async Task<ActionResult<CustomerResponse>> GetById(Guid id, CancellationToken cancellationToken)
         {
+            if (id == Guid.Empty)
+            {
+                return BadRequest(typeof(ArgumentNullException));
+            }
             var customer = await _customerService.GetByIdAsync(id, cancellationToken);
             if (customer == null)
             {
@@ -56,20 +59,20 @@ namespace Customers.Api.Controllers.V1
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> Post([FromBody] AddCustomerRequest addCustomerRequest, CancellationToken cancellationToken)
+        public async Task<ActionResult<CustomerResponse>> Post([FromBody] AddCustomerRequest addCustomerRequest, CancellationToken cancellationToken)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
             var newCustomer = _mapper.Map<AddCustomerDataModel>(addCustomerRequest);
-            await _customerService.AddAsync(newCustomer, cancellationToken);
-            return Created();
+            var response = await _customerService.AddAsync(newCustomer, cancellationToken);
+            return CreatedAtRoute(nameof(GetById), new { id = response.Id }, response);
         }
 
         // PUT api/<CustomerController>/5
         [HttpPut]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> Put([FromBody] UpdateCutomerRequest updateCustomerRequest, CancellationToken cancellationToken)
@@ -79,18 +82,18 @@ namespace Customers.Api.Controllers.V1
                 return BadRequest(ModelState);
             }
             var newCustomer = _mapper.Map<UpdateCustomerDataModel>(updateCustomerRequest);
-            await _customerService.UpdateAsync(newCustomer, cancellationToken);
-            return Ok();
+            var response = await _customerService.UpdateAsync(newCustomer, cancellationToken);
+            return response ? NoContent() : NotFound();
         }
 
         // DELETE api/<CustomerController>/5
         [HttpDelete("{id}")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> Delete(Guid id, CancellationToken cancellationToken)
         {
-            await _customerService.DeleteAsync(id, cancellationToken);
-            return Ok();
+            var response = await _customerService.DeleteAsync(id, cancellationToken);
+            return response ? NoContent() : NotFound();
         }
     }
 }

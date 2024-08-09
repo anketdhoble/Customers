@@ -16,10 +16,6 @@ namespace Customers.Persistence.Context
                 .HasKey(x => x.Id);
 
             modelBuilder.Entity<Customer>()
-               .Property(x => x.Id)
-               .HasDefaultValueSql("NEWID()");
-
-            modelBuilder.Entity<Customer>()
                 .Property(b => b.CreatedDateTime)
                 .HasDefaultValueSql("GETDATE()");
         }
